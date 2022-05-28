@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DeepTrash</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--<link rel="stylesheet" href="../static/scroll.css">
+<script type="text/javascript" src="../static/scroll.js"></script> -->
+<link rel="stylesheet" type="text/css" href="../static/homepage.css" >
+<link rel="stylesheet" type="text/css" href="../static/zoom.css" >
+</head>
+<body>
+
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <a href="/"><img src="/static/DeepTrash.png" alt="Logo" width="76" height="76"></img></a>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a class="drop" href="#">Detect</a>
+            <ul>
+              <li><a href="/howtodetect">How to Detect?</a></li>
+              <li><a href="/detectwithyolov5">Detect with Yolov5</a></li>
+            </ul>
+          </li>
+        <!--<li><a class="drop" href="#">Dropdown</a>
+            <ul>
+              <li><a href="#">Level 2</a></li>
+              <li><a class="drop" href="#">Level 2 + Drop</a>
+                <ul>
+                  <li><a href="#">Level 3</a></li>
+                  <li><a href="#">Level 3</a></li>
+                  <li><a href="#">Level 3</a></li>
+                </ul>
+              </li>
+              <li><a href="#">News</a></li>
+            </ul>
+          </li>-->  
+          <li><a href="/news">News</a></li> <li><a href="/detectedMedia">Detected Media</a></li>
+          <li><a href="/contact">Contact</a></li>
+         
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+<div class="container" id="zoomA">
+<!--- <div class="row ">
+   
+  <div class="col align-self-center">  <div class="img-comp-container">
+    <div class="img-comp-img">
+      <img src="/static/notdetected.jpg" >
+    </div>
+    <div class="img-comp-img img-comp-overlay">
+      <img src="/static/detected.jpg">
+    </div>
+  </div>
+</div>
+
+</div>--> 
+<br>
+<h1 style="text-align: center;">Tested images with our model</h1>
+
+
+<div>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <img src="/static/notdetected.jpg" class="rounded" alt="Ocean">
+        </div>
+        <div class="col-4">
+            <img src="/static/detected.jpg" class="rounded"  alt="Ocean">
+        </div>
+    </div>
+    <br>
+    <div class="row justify-content-center">
+       <div class="col-4">
+    <img src="/static/balinotdetected.png" class="rounded"></img>
+       </div>
+      <div class="col-4">
+          <img src="/static/balidetected.png" class="rounded" ></img>
+      </div>
+  </div>
+  <br> 
+  <div class="row justify-content-center">
+    <div class="col-4">
+ <img src="/static/trimnotdetect.png" class="rounded"></img>
+    </div>
+   <div class="col-4">
+       <img src="/static/trimdetected.png" class="rounded" ></img>
+   </div>
+</div> 
+<br>
+<div class="row justify-content-center">
+  <div class="col-4">
+<img src="/static/testnotdetected.jpg" class="rounded"></img>
+  </div>
+ <div class="col-4">
+     <img src="/static/test.jpg" class="rounded" ></img>
+ </div>
+</div>
+<br>
+
+</div>
+</div>
+
+
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">Contact Us</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        
+        <li><a href="mailto:deeptrashcompany@gmail.com"><i class="fa fa-envelope-o"></i>deeptrashcompany@gmail.com</a></li>
+      </ul>
+
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Links</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h6 class="nospace font-x1"><a href="/contact">Contact</a></h6>
+            <h6 class="nospace font-x1"><a href="/index">Detect</a></h6>
+            <h6 class="nospace font-x1"><a href="/news">News</a></h6>
+            <h6 class="nospace font-x1"><a href="/detectedMedia">Detected Media</a></h6>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <div class="one_third"> <h5 class="heading" style="text-align: center;">Tweet to Share</h5>
+      <div class="card" style="width: 21rem;background-color: #414449;">
+        <div class="card-body">
+         
+          <p class="card-title" style="text-align:left;  ">A great way to get involved in protecting the seas. Join #deepTrash and raise your voice on what matters!</p>
+          
+            <a href="https://twitter.com/?lang=tr"><i class="fa fa-twitter"></i></a></div>
+            
+    
+              
+          </div>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p style="text-align: center;">Copyright &copy; 2022 - All Rights Reserved - <a href="#">DeepTrash</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<script>
+  /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+  initComparisons();
+  </script>
+</body>
+</html>

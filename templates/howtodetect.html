@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DeepTrash</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="../static/homepage.css" >
+</head>
+<body>
+
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <a href="/"><img src="/static/DeepTrash.png" alt="Logo" width="76" height="76"></img></a>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a class="drop" href="#">Detect</a>
+            <ul>
+                <li><a href="/howtodetect">How to Detect?</a></li>
+                <li><a href="/detectwithyolov5">Detect with Yolov5</a></li>
+             
+            </ul>
+          </li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/detectedMedia">Detected Media</a></li>
+          <li><a href="/contact">Contact</a></li>
+          
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+
+
+
+
+
+<!-- Page content -->
+<br><br>
+<h3 style="text-align: center;">How To Detect?</h3>
+<div style="text-align: center;">
+    <video height="500px" name="media" controls>
+        <source src="{{ url_for('static', filename='Cut.mp4') }}" type="video/mp4" />
+    </video>
+</div>
+<br><br>
+
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">Contact Us</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        
+        <li><a href="mailto:deeptrashcompany@gmail.com"><i class="fa fa-envelope-o"></i>deeptrashcompany@gmail.com</a></li>
+      </ul>
+
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Links</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h6 class="nospace font-x1"><a href="/contact">Contact</a></h6>
+            <h6 class="nospace font-x1"><a href="/index">Detect</a></h6>
+            <h6 class="nospace font-x1"><a href="/news">News</a></h6>
+            <h6 class="nospace font-x1"><a href="/detectedMedia">Detected Media</a></h6>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <div class="one_third"> <h5 class="heading" style="text-align: center;">Tweet to Share</h5>
+      <div class="card" style="width: 21rem;background-color: #414449;">
+        <div class="card-body">
+         
+          <p class="card-title" style="text-align:left;  ">A great way to get involved in protecting the seas. Join #deepTrash and raise your voice on what matters!</p>
+          
+            <a href="https://twitter.com/?lang=tr"><i class="fa fa-twitter"></i></a></div>
+            
+    
+              
+          </div>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p style="text-align: center;">Copyright &copy; 2022 - All Rights Reserved - <a href="#">DeepTrash</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+</body>
+</html>

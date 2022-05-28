@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+}
+body{
+  margin: 0;
+}
+.App{
+  bottom: 0;
+  width: 100%;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border-radius: 15px;
+  border: 2px solid #004aad;
+}
+.video-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+ 
+  z-index: -100;
+  background-size: cover;
+}
+
+
+.button2:hover {
+  background-color: #004aad;
+  
+  color: white;
+}
+
+.App-header {
+  background-color: transparent;
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  font-family: 'Antonio', sans-serif;
+  color: white;
+}
+
+
+#download{
+color: white;
+}
+
+.pre_img {
+  height: 300px;
+  width: 300px;
+  /* background-color: white; */
+}
+
+input[type="file"] {
+  background-color: white;
+  border: none;
+  color: #004aad;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 40px 40px;
+  /* display: none; */
+}
+
+/*#pre {
+  background-color: #38b6ff; /* Green 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px 40px;
+} */
+p {
+  margin: 50px;
+  font-size: 72px;
+}
+
+#link {
+  visibility: hidden;
+}

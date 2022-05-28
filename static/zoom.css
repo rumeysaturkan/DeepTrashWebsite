@@ -1,0 +1,12 @@
+#zoomA img {
+    /* (A) OPTIONAL DIMENSIONS */
+    width: 500px;
+    height: auto;
+   
+    /* (B) ANIMATE ZOOM */
+    /* ease | ease-in | ease-out | linear */
+    transition: transform ease-in-out 0.3s;
+  }
+   
+  /* (C) ZOOM ON HOVER */
+  #zoomA img:hover { transform: scale(1.2); }

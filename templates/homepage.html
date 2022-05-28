@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DeepTrash</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="../static/homepage.css" >
+</head>
+<body>
+
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <a href="/"><img src="/static/DeepTrash.png" alt="Logo" width="76" height="76"></img></a>
+      </div>
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a class="drop" href="#">Detect</a>
+            <ul>
+              <li><a href="/howtodetect">How to Detect?</a></li>
+              <li><a href="/detectwithyolov5">Detect with Yolov5</a></li>
+             
+            </ul>
+          </li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/detectedMedia">Detected Media</a></li>
+          <li><a href="/contact">Contact</a></li>
+          
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+
+  <video height="600px" autoplay loop muted name="media">
+    <source src="{{ url_for('static', filename='Sea.mp4') }}" type="video/mp4" />
+</video>
+  <!-- <div><br><br><br><br><br><br><br><br><br><br><br><br></div> -->
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">Detect the trash under the sea</h1>
+    <h3 class="w3-hide-medium w3-hide-small">Save the Planet</h3>
+  </div>
+  
+ 
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="/index" class="w3-bar-item w3-button">Detect</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>
+</div>
+<!-- Page content -->
+
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
+
+  
+
+<br>
+  <div class="wrapper row3">
+    <article class="hoc container clear"> 
+      <!-- ################################################################################################ -->
+      <div class="sectiontitle">
+        <h3 style="text-align: center;" class="heading">About Us</h3>
+        <p style="text-align: center;">In today’s world, underwater pollution poses a great threat to the health of our lives in the underwater world. Our rivers and streams, which are filled with plastic and a lot of other garbage, are transported to the seas and oceans. DeepTrash is aimed to make an accelerating contribution by providing visual support to the cleaning and analysis studies carried out in this area with the detection of underwater waste, and to create public awareness for underwater lives affected by underwater pollution. </p>
+      </div>
+     
+        <ul class="nospace group logos">
+          <li class="one_quarter first"><img/></li>
+          <li class="one_quarter" ><a href="/index"><img src="/static/destek.png" alt=""><p style="color: #00ADEF; text-align: center;">Object Detection</p><p style="color: black;">By uploading underwater video or images files with our model that we have trained with underwater images, ensuring that it can detect trash, bio and rovs in the relevant file.</p></a></li>
+          <li class="one_quarter"><a href="/news"><img alt="" src="/static/farkındalık.png"><p style="color: #00ADEF; text-align: center;">Awareness</p><p style="color: black;">What we humans do to the oceans determines the future of all life as we know it. To raise awareness by raising awareness of people with news about marine pollution and detections of submarine pollution.</p> </a></li>
+          <li class="one_quarter"><img/></li>
+        </ul>
+      
+      <!-- ################################################################################################ -->
+    </article>
+  </div>
+<br>
+<br>
+<br>
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/04.png');">
+  <article class="hoc container"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <h3 style="text-align: center;" class="heading">Did you know these?</h3>
+      <br>
+    </div>
+    <ul class="nospace group">
+      <li class="one_half first borderedbox inspace-15">
+        <blockquote>If we carry on as usual, this is expected to increase to two per minute by 2030 and four per minute by 2050. By 2050, this could mean there will be more plastic than fish in the world’s oceans. Only 14% plastic packaging is collected for recycling.</blockquote>
+        <p class="right bold">WEF</p>
+      </li>
+      <li class="one_half borderedbox inspace-15">
+        <blockquote>To move from insight to large-scale action, it is clear that no one actor can work on this alone. The public, private sector and civil society all need to mobilize to capture the opportunity of the new circular plastics economy.</blockquote>
+        <p class="right bold">Dominic Waughray</p>
+      </li>
+    </ul>
+    <br>
+    <br>
+    <ul class="nospace group">
+      <li class="one_half first borderedbox inspace-15">
+        <blockquote>Plastic production accounts for 6 percent of global oil consumption (this number will reach 20 percent by 2050) and 1 percent of the global carbon budget (the highest amount of emissions the world can produce to prevent global temperatures from rising more than 2 degrees Celsius).</blockquote>
+        <p class="right bold">Sarah Kaplan</p>
+      </li>
+      <li class="one_half borderedbox inspace-15">
+        <blockquote>The impact of microplastics and plastics in the ocean and underwater on large animals such as whales and birds was clearly visible. They can starve to death by choking or because the plastic they eat clogs their digestive systems.One pup died after a plastic toothpick pierced his stomach.</blockquote>
+        <p class="right bold">Kristian Syberg</p>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </article>
+</div>
+<br>
+<br>
+<br>
+<!-- End page content -->
+</div>
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">Contact Us</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        
+        <li><a href="mailto:deeptrashcompany@gmail.com"><i class="fa fa-envelope-o"></i>deeptrashcompany@gmail.com</a></li>
+      </ul>
+
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Links</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h6 class="nospace font-x1"><a href="/contact">Contact</a></h6>
+            <h6 class="nospace font-x1"><a href="/index">Detect</a></h6>
+            <h6 class="nospace font-x1"><a href="/news">News</a></h6>
+            <h6 class="nospace font-x1"><a href="/detectedMedia">Detected Media</a></h6>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <div class="one_third"> <h5 class="heading" style="text-align: center;">Tweet to Share</h5>
+      <div class="card" style="width: 21rem;background-color: #414449;">
+        <div class="card-body">
+         
+          <p class="card-title" style="text-align:left;  ">A great way to get involved in protecting the seas. Join #deepTrash and raise your voice on what matters!</p>
+          
+            <a href="https://twitter.com/?lang=tr"><i class="fa fa-twitter"></i></a></div>
+            
+    
+              
+          </div>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <p style="text-align: center;">Copyright &copy; 2022 - All Rights Reserved - <a href="#">DeepTrash</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+</body>
+</html>
